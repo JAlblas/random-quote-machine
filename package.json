@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "lint": "eslint src/js",
+    "scss": "node-sass --watch assets/scss -o assets/css",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/JAlblas/random-quote-machine/issues"
   },
-  "homepage": "https://github.com/JAlblas/random-quote-machine#readme"
+  "homepage": "https://github.com/JAlblas/random-quote-machine#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "jest": "^23.6.0",
+    "node-sass": "^4.10.0",
+    "webpack": "^4.26.1"
+  }
 }
