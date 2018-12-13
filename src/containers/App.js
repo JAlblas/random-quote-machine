@@ -231,7 +231,6 @@ class App extends Component{
   render(){
     return(
       <div className="App">
-        <h1>Quote generator!</h1>
         <QuoteMachine quote={this.state.selectedQuote.quote} author={this.state.selectedQuote.author} handler={this.newQuote}/>
       </div>
     );
