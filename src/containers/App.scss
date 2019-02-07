@@ -30,9 +30,12 @@ html,body {
   justify-content: center;
   background-color: #3544FF;
   color: white;
+  padding: 20px;
 
   #text {
       font-size: 1.6em;
+      height: 125px;
+      padding-top: 25px;
   }
 
   #author {
